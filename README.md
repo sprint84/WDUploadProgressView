@@ -3,13 +3,34 @@ WDUploadProgressView
 
 Upload Progress View to be attached as a header of a UITableView and receive updates about the connection.
 
+![Screenshot] (https://github.com/sprint84/WDUploadProgressView/blob/master/WDUploadProgressViewSample/Screenshot1.png?raw=true)
+
+## Usage
+* Copy the project files and include into your project. Attention to the add the bundle images.
+
+### Initialization
+
+```
+WDUploadProgressView *progressView = [[WDUploadProgressView alloc] initWithTableView:self.tableView cancelButton:YES];
+progressView.delegate = self;
+```
+
+### Configuration
+```
+// Add Here an image to show
+[progressView setPhotoImage:[UIImage imageNamed:@"flower"]];
+	
+// Additionally you can set the message at any time (Default: Uploading...)
+[progressView setUploadMessage:@"Uploading..."];
+```
+
 ## Requirements
 * WDUploadProgressView requires iOS 5.0 or above.
 * ARC memory management. If your project does not use ARC, compile with flag -fobjc-arc.
 * QuartzCore Framework.
+* View with UITableView (requires UITableView header).
 
 ## License
-
 WDUploadProgressView is available under the MIT license.
 
 Copyright (c) 2013 Guilherme Moura
