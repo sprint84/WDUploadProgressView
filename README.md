@@ -3,9 +3,12 @@ WDUploadProgressView
 
 Upload Progress View to be attached as a header of a UITableView and receive updates about the connection.
 
+## Requirements
+* WDUploadProgressView requires iOS 5.0 or above.
+* ARC memory management. If your project does not use ARC, compile with flag -fobjc-arc.
+* QuartzCore Framework.
 
-License
-====================
+## License
 
 WDUploadProgressView is available under the MIT license.
 
