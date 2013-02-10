@@ -40,6 +40,12 @@
 	// Additionally you can set the message at any time (Default: Uploading...)
 	[progressView setUploadMessage:@"Uploading..."];
 	
+	// You can customize the progress tint color
+//	[progressView setProgressTintColor:[UIColor whiteColor]];
+	
+	// Additionally you can customize the progress track color
+//	[progressView setProgressTrackColor:[UIColor darkGrayColor]];
+	
 	
 	// Insert your connection library that will deal with the upload
 	// and set the progress view as a delegate
