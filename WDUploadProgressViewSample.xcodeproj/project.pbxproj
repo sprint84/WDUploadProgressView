@@ -23,6 +23,8 @@
 		453F03F116C756FA002ACCE3 /* DummyConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = 453F03F016C756FA002ACCE3 /* DummyConnection.m */; };
 		453F03F316C75B3E002ACCE3 /* WDUploadProgressView.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 453F03F216C75B3E002ACCE3 /* WDUploadProgressView.bundle */; };
 		453F03F516C75D26002ACCE3 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 453F03F416C75D26002ACCE3 /* flower.png */; };
+		45853BC816DD23FC00F8A6CD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45853BC716DD23FC00F8A6CD /* Icon.png */; };
+		45853BCA16DD240000F8A6CD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45853BC916DD240000F8A6CD /* Icon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		453F03F016C756FA002ACCE3 /* DummyConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DummyConnection.m; sourceTree = "<group>"; };
 		453F03F216C75B3E002ACCE3 /* WDUploadProgressView.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = WDUploadProgressView.bundle; sourceTree = "<group>"; };
 		453F03F416C75D26002ACCE3 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
+		45853BC716DD23FC00F8A6CD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		45853BC916DD240000F8A6CD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +74,8 @@
 		453F03B416C74B07002ACCE3 = {
 			isa = PBXGroup;
 			children = (
+				45853BC916DD240000F8A6CD /* Icon@2x.png */,
+				45853BC716DD23FC00F8A6CD /* Icon.png */,
 				453F03C616C74B07002ACCE3 /* WDUploadProgressViewSample */,
 				453F03BF16C74B07002ACCE3 /* Frameworks */,
 				453F03BE16C74B07002ACCE3 /* Products */,
@@ -203,6 +209,8 @@
 				453F03DA16C74B07002ACCE3 /* MainStoryboard.storyboard in Resources */,
 				453F03F316C75B3E002ACCE3 /* WDUploadProgressView.bundle in Resources */,
 				453F03F516C75D26002ACCE3 /* flower.png in Resources */,
+				45853BC816DD23FC00F8A6CD /* Icon.png in Resources */,
+				45853BCA16DD240000F8A6CD /* Icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
