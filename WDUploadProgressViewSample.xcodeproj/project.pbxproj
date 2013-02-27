@@ -13,9 +13,6 @@
 		453F03CB16C74B07002ACCE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 453F03C916C74B07002ACCE3 /* InfoPlist.strings */; };
 		453F03CD16C74B07002ACCE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 453F03CC16C74B07002ACCE3 /* main.m */; };
 		453F03D116C74B07002ACCE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 453F03D016C74B07002ACCE3 /* AppDelegate.m */; };
-		453F03D316C74B07002ACCE3 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 453F03D216C74B07002ACCE3 /* Default.png */; };
-		453F03D516C74B07002ACCE3 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453F03D416C74B07002ACCE3 /* Default@2x.png */; };
-		453F03D716C74B07002ACCE3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 453F03D616C74B07002ACCE3 /* Default-568h@2x.png */; };
 		453F03DA16C74B07002ACCE3 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 453F03D816C74B07002ACCE3 /* MainStoryboard.storyboard */; };
 		453F03DD16C74B07002ACCE3 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 453F03DC16C74B07002ACCE3 /* MasterViewController.m */; };
 		453F03EA16C74DE2002ACCE3 /* WDUploadProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 453F03E916C74DE2002ACCE3 /* WDUploadProgressView.m */; };
@@ -25,6 +22,9 @@
 		453F03F516C75D26002ACCE3 /* flower.png in Resources */ = {isa = PBXBuildFile; fileRef = 453F03F416C75D26002ACCE3 /* flower.png */; };
 		45853BC816DD23FC00F8A6CD /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 45853BC716DD23FC00F8A6CD /* Icon.png */; };
 		45853BCA16DD240000F8A6CD /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45853BC916DD240000F8A6CD /* Icon@2x.png */; };
+		45D6BBE716DECBC100455269 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D6BBE616DECBC100455269 /* Default@2x.png */; };
+		45D6BBE916DECBCD00455269 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D6BBE816DECBCD00455269 /* Default-568h@2x.png */; };
+		45D6BBEB16DECC2200455269 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45D6BBE416DECBB000455269 /* Default.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +54,10 @@
 		453F03F416C75D26002ACCE3 /* flower.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = flower.png; sourceTree = "<group>"; };
 		45853BC716DD23FC00F8A6CD /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
 		45853BC916DD240000F8A6CD /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		45D6BBE416DECBB000455269 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		45D6BBE616DECBC100455269 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		45D6BBE816DECBCD00455269 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		45D6BBEC16DECC4800455269 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +78,10 @@
 		453F03B416C74B07002ACCE3 = {
 			isa = PBXGroup;
 			children = (
+				45D6BBEC16DECC4800455269 /* Default.png */,
+				45D6BBE816DECBCD00455269 /* Default-568h@2x.png */,
+				45D6BBE616DECBC100455269 /* Default@2x.png */,
+				45D6BBE416DECBB000455269 /* Default.png */,
 				45853BC916DD240000F8A6CD /* Icon@2x.png */,
 				45853BC716DD23FC00F8A6CD /* Icon.png */,
 				453F03C616C74B07002ACCE3 /* WDUploadProgressViewSample */,
@@ -203,14 +211,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				453F03CB16C74B07002ACCE3 /* InfoPlist.strings in Resources */,
-				453F03D316C74B07002ACCE3 /* Default.png in Resources */,
-				453F03D516C74B07002ACCE3 /* Default@2x.png in Resources */,
-				453F03D716C74B07002ACCE3 /* Default-568h@2x.png in Resources */,
 				453F03DA16C74B07002ACCE3 /* MainStoryboard.storyboard in Resources */,
 				453F03F316C75B3E002ACCE3 /* WDUploadProgressView.bundle in Resources */,
 				453F03F516C75D26002ACCE3 /* flower.png in Resources */,
 				45853BC816DD23FC00F8A6CD /* Icon.png in Resources */,
 				45853BCA16DD240000F8A6CD /* Icon@2x.png in Resources */,
+				45D6BBE716DECBC100455269 /* Default@2x.png in Resources */,
+				45D6BBE916DECBCD00455269 /* Default-568h@2x.png in Resources */,
+				45D6BBEB16DECC2200455269 /* Default.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
