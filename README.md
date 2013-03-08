@@ -49,7 +49,7 @@ Beware that completing the upload (sent 100% of data) does not necessarily means
 
 ## Requirements
 * WDUploadProgressView requires iOS 5.0 or above.
-* ARC memory management. If your project does not use ARC, compile with flag -fobjc-arc.
+* ARC memory management. If your project does not use ARC, compile each file with flag -fobjc-arc.
 * QuartzCore Framework.
 * View with UITableView (requires UITableView header).
 
