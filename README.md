@@ -43,7 +43,7 @@ This delegate protocol implements only one method:
 which should be called after each progress update. The values must be [0.0, 1.0].
 
 #### Dismissing
-When the progress reaches 1.0, the view call a method in the delegate after 2 seconds.
+When the progress reaches 1.0, the view will call a method in the delegate after 2 seconds.
 You must remove the progress view from the table view and update your data if necessary.
 Beware that completing the upload (sent 100% of data) does not necessarily means that your object is ready. The WDUploadProgressView could be removed from the table view, but your server might still be processing your object.
 
