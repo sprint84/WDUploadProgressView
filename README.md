@@ -1,7 +1,7 @@
 WDUploadProgressView
 ====================
 
-Upload Progress View to be attached as a header of a UITableView and receive updates about the connection.
+Upload Progress View to be attached as a header of a UITableView and receive updates about the data connection.
 
 ![Screenshot] (https://github.com/sprint84/WDUploadProgressView/blob/master/WDUploadProgressViewSample/Screenshot1.png?raw=true)
 
